@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #243e63
+}
+
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.container {
+  padding: 96px 0;
+}
+
+.purple {
+  color: #6415ff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 0 32px;
+}
+
+.nav__link--primary {
+  margin: 0;
+  padding: 10px 32px;
+  margin-top: 2px;
+
+}
+
+img {
+width: 100%;
+}
+
+/* 
+NAVBAR
+ */
+
+ nav {
+  padding-top: 32px;
+  display: flex;
+}
+
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo--img {
+  height: 40px;
+  width: 40px;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  padding-bottom: 4px;
+}
+
+.nav__logo--title {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.btn__menu {
+  background-color: transparent;
+  border: none;
+  transition: all 300ms ease;
+}
+
+button {
+  cursor: pointer;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2px;
+}
+
+.nav__link {
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 4px;
+  letter-spacing: 0.35;
+}
