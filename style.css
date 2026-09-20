@@ -21,6 +21,7 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+
 }
 
 .row__narrow {
@@ -46,6 +47,7 @@ h1 {
   font-size: 48px;
   color: #1a202c;
   line-height: 1.25;
+  text-align: center;
 }
 
 .purple {
@@ -333,10 +335,12 @@ header .row {
 
 .header__description {
   width: 40%;
+  
 }
 
 .header__description--para {
   margin: 32px 0;
+  text-align: center;
 }
 
 .header__email {
@@ -368,7 +372,7 @@ header .row {
 }
 
 .header__email--input {
-  width: 100px;
+  width: 100%;
   border-radius: 500px;
   border: 2px solid rgb(229, 231, 235);
   padding: 20px 192px 20px 32px;
@@ -402,12 +406,13 @@ header .row {
   color: #a0aec0;
   font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.6;
+  letter-spacing: 0.6px;
+  text-align: center;
 }
 
 .header__customers {
   margin-top: 16px;
-  padding-right: 128;
+  padding-right: 128px;
   opacity: 0.5;
 }
 
@@ -462,7 +467,6 @@ header {
     inset: 0;
     width: auto;
     height: auto;
-    margin: 0;
     z-index: 10;
     flex-direction: column;
     align-items: flex-end;
@@ -498,5 +502,10 @@ header {
     padding: 12px 24px;
     border-radius: 9999px;
   }
+
+  .header__description {
+    width: 100%;
+  }
+ 
 }
 
