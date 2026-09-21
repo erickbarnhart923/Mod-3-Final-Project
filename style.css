@@ -328,7 +328,7 @@ section {
 header .row {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
@@ -439,6 +439,13 @@ header {
   max-width: 768px;
 }
 
+/* 
+FEATURES
+ */
+
+#features {
+  position: relative;
+}
 
 
 
@@ -502,6 +509,15 @@ header {
     padding: 12px 24px;
     border-radius: 9999px;
   }
+
+.header .row {
+  flex-direction: column;
+}
+
+.header__description, 
+.header__img--wrapper {
+  width: 100%;
+}
 
   .header__description {
     width: 100%;
