@@ -47,7 +47,7 @@ h1 {
   font-size: 48px;
   color: #1a202c;
   line-height: 1.25;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .purple {
@@ -69,10 +69,12 @@ p {
 
 .section__title {
   font-size: 48px;
-  color: #243e63;
+  color: rgb(36, 62, 99);
   font-size: 18px;
-  font-weight: 600;
-  text-decoration: none;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 16px 0;
+  letter-spacing: 0.025em;
   }
 
   .menu__link--primary {
@@ -319,23 +321,14 @@ section {
   padding: 0 32px;
 }
 
-.row {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 header .row {
-  width: 100%;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 
 .header__description {
   width: 40%;
-  
 }
 
 .header__description--para {
@@ -447,20 +440,10 @@ FEATURES
   position: relative;
 }
 
-
-
 #features .row__narrow {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-#features .section__title {
-  font-size: 48px;
-  font-weight: 900;
-  line-height: 1.5;
-  margin: 16px 0;
-  letter-spacing: 0.025;
 }
 
 #features .section__title,
