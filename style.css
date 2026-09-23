@@ -543,7 +543,7 @@ FEATURES
 
   .feature {
     width: auto;
-    max-width: 384;
+    max-width: 384px;
   }
 
   .section__para {
