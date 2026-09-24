@@ -70,7 +70,6 @@ p {
 .section__title {
   font-size: 48px;
   color: rgb(36, 62, 99);
-  font-size: 18px;
   font-weight: 900;
   line-height: 1.5;
   margin: 16px 0;
@@ -527,6 +526,7 @@ FEATURES
 #quality .section__title,
 #value .section__title {
   line-height: 1.25;
+  text-align: center;
 }
 
 #quality .btn {
