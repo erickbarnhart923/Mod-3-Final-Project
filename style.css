@@ -643,7 +643,7 @@ STEPS
   width: 10rem;
   height: 10rem;
   opacity: 0.8;
-  z-index: -10;
+  z-index: -2;
   color: rgb(100, 21, 255);
   fill: currentColor;
 }
