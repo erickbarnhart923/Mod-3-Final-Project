@@ -1145,7 +1145,7 @@ main {
   font-size: 16px;
   color: #f7fafc;
   line-height: 1.5;
-  letter-spacing: 0.025;
+  letter-spacing: 0.025em;
   margin: 1px;
   z-index: 2;
 }
